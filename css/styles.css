@@ -1137,9 +1137,8 @@ section.lastimage {
         margin-bottom:10px;
     }
     section.lastimage img{
-        width:400px;
-        height: 200px;   
-        margin-left: 30px;
+       width:100%;   
+        margin-left: 0px;
 }
     section.futureDates .whatson{
         width:100%;
