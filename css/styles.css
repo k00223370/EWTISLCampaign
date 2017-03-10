@@ -213,7 +213,6 @@ section.main .advert {
     float:left;
     margin-top: 30px;
     margin-left: 30px;
-    height: 170px;
     padding: 0;
   
 }
@@ -243,6 +242,12 @@ section.mainTwo aside img {
     float:left;
     padding-right: 10px;
 }
+
+section.mainNews1 img{
+float:left;
+padding-right: 10px;
+}
+
 
 section.mainTwo1 .advert.img{
     border:none;
@@ -399,6 +404,7 @@ section.futureDates {
     margin-top: 20px;
     padding-top:50px;
     margin-bottom: 30px;
+    margin-left: 80px;
     width: 100%;
     float:left;
     text-align:left;
@@ -421,6 +427,14 @@ section.futureDates{
     box-sizing:border-box;
     border: 1px solid #ccc;
     padding: 20px;
+}
+.whatson h4{
+    font-size: 1.5em;
+    line-height: 1px;
+}
+.whatson p{
+    line-height: 1px;
+    font-size: 1.3em;
 }
 
 
@@ -544,7 +558,7 @@ input:focus{
 }
 section.lastimage {
     width:50%;
-    padding-left: 100px;
+    padding-left: 200px;
 }
 
 
@@ -589,8 +603,6 @@ section.lastimage {
     #calendar {
             width:40%;
             margin-left: 100px;
-        
-
     }
     .whatson  {
     
@@ -614,6 +626,18 @@ section.lastimage {
     
     font-size: 1em;
     
+}
+    section.main .advert{
+    margin-left: 0px;
+    margin-bottom: 60px;
+    }
+    
+    section.main .advert img{
+    width: 600px;
+    height:250px;
+    margin-left:0px;
+    margin-bottom:30px;
+  
 }
     table tr{
     font-size: .5em;
@@ -722,6 +746,18 @@ section.lastimage {
     section.lastimage {
     width:90%;
     padding-left: 30px;
+}
+    section.main .advert{
+    margin-left: 0px;
+    margin-bottom: 0px;
+    }
+    
+    section.main .advert img{
+    width: 600px;
+    height:250px;
+    margin-left:0px;
+    margin-bottom:30px;
+  
 }
 
     }
@@ -890,6 +926,23 @@ section.lastimage {
     margin-left: 20px;
     font-size: 1.25em;
 }
+   section.main .advert{
+    margin-left: 0px;
+    margin-bottom: 30px;
+    }
+    
+    section.main .advert img{
+    width: 450px;
+    height:225px;
+    margin-left:0px;
+  
+}
+    section.lastimage img{
+    width:500px;
+    height:250px;   
+    margin-left: 30px;
+}
+
 
 }
     
@@ -924,16 +977,25 @@ section.lastimage {
         margin-left:40px;
       
     }
-      section.main .advert {
-        width: 100%;
-        padding-left:20px;
-    }
     section.timeline {
     
     width: 80%;
     margin-left: 40px;
     font-size: 1em;
 }
+  
+    section.main .advert img{
+    width: 450px;
+    height:225px;
+    margin-left:0px;
+  
+}
+    section.lastimage img{
+    width:500px;
+    height:250px;   
+    margin-left: 30px;
+}
+
     }
 
 
@@ -953,9 +1015,12 @@ section.lastimage {
     }
     header {
         height: 200px;
-
-    
     }
+    .whatson p{
+    line-height: 1px;
+    font-size: 1.1em;
+}
+
     header a.logo {
         width: 30%;
         height: 150px;
@@ -1084,6 +1149,22 @@ section.lastimage {
         width:100px;
         height:100px;
 }
+       section.main .advert{
+    margin-left: 0px;
+    }
+    
+    section.main .advert img{
+    width: 400px;
+    height:200px;
+    margin-left:0px;
+  
+}
+    section.lastimage img{
+    width:400px;
+    height: 200px;   
+    margin-left: 30px;
+}
+
 
 
 }
@@ -1152,15 +1233,17 @@ section.lastimage {
     font-size: .2em;
     }
     
-    section.main .advert {
-    width: 50%;
+   
+    section.main .advert img{
+    width: 300px;
+    height:150px;
     margin-left:0px;
-    padding: 0;
   
 }
-    section.lastimage {
-    width:25%;
-    padding-left:0px;
+    section.lastimage img{
+    width:200px;
+    height: 100px;   
+    margin-left: 50px;
 }
 
 
