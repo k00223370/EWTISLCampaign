@@ -1150,9 +1150,7 @@ section.lastimage {
     }
     
     section.main .advert img{
-    width: 400px;
-    height:200px;
-    margin-left:0px;
+   width: 100%
   
 }
     section.lastimage img{
