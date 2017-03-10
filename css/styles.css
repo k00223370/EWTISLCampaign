@@ -414,8 +414,8 @@ section.futureDates{
 
 
 .whatson  {
-    width: 45%;
-    margin-left: 120px;
+    width: 40%;
+    margin-left: 150px;
     float:left;
     display: inline;
     box-sizing:border-box;
@@ -426,7 +426,7 @@ section.futureDates{
 
 #calendar {
     float:left;
-    width:45%;
+    width:40%;
     margin-bottom: 10px;
     box-sizing:border-box;
     border: 1px solid #ccc;
@@ -544,7 +544,7 @@ input:focus{
 }
 section.lastimage {
     width:50%;
-    padding-left: 400px;
+    padding-left: 100px;
 }
 
 
@@ -587,11 +587,15 @@ section.lastimage {
     }
     
     #calendar {
-            width:45%;
-            margin-left: 250px;
+            width:40%;
+            margin-left: 100px;
         
 
     }
+    .whatson  {
+    
+    margin-left: 40px;
+}
     section.mainNews1 aside h2{ 
         
         font-size: 2em;
@@ -630,7 +634,10 @@ section.lastimage {
     float:left;
     padding-left: 0px;
 }
-    }
+
+
+    
+
 
 @media screen and (max-width: 1030px){
    
@@ -701,6 +708,11 @@ section.lastimage {
         width:80%;
         margin-left: 50px;
     }
+  
+    .whatson  {
+     width:80%;
+     margin-left: 50px;
+    }
     section.timeline {
     
     width: 90%;
@@ -770,7 +782,7 @@ section.lastimage {
     width:300px;
     padding-left: 20px;
 }
-
+ 
     
     }
 
@@ -847,9 +859,12 @@ section.lastimage {
 }
     #calendar {
         width:80%;
-        margin-left:40px;
-            
-
+        margin-left:40px;        
+    }
+ 
+    .whatson  {
+     width:80%;
+     margin-left: 40px;
     }
      section.mainTwo1 aside{
         width: 90%;
@@ -864,16 +879,17 @@ section.lastimage {
         width:500px;
         margin-left: 80px;
     }
-    section.timeline {
-    
-    width: 90%;
-    margin-left: 40px;
-    font-size: 2em;
-}
+ 
        section.mainNews1 aside iframe {
         width:500px;
         margin-left: 40px;
     }
+    section.timeline {
+    
+    width: 90%;
+    margin-left: 20px;
+    font-size: 1.25em;
+}
 
 }
     
@@ -955,9 +971,9 @@ section.lastimage {
 }
        section.timeline table{
  
-    width: 80%;
-    margin-left: 40px;
-    font-size: 1em;
+    width: 90%;
+    margin-left: 10px;
+    font-size: 1.25em;
 }
 
    
@@ -1074,6 +1090,8 @@ section.lastimage {
 
 
 @media screen and (max-width:380px) {
+    
+    
     header p{
     padding-left: 70%;
     color: white;
@@ -1109,22 +1127,43 @@ section.lastimage {
         padding-left: 0px;
     }
     
-section.main aside.video {
-    width:90%;
-}
+
       section.mainNews1 aside img{
         display:none;
     }
       section.main aside iframe {
-        width:200px;
-        height:200px;
-        margin-left: 20px;
-    }
-       section.mainNews1 aside iframe {
-        width:200px;
-        height:200px;
+        width:250px;
+        height:250px;
         margin-left: 10px;
     }
+       section.mainNews1 aside iframe {
+        width:250px;
+        height:250px;
+        margin-left:10px;
+    }
+    section.timeline {
+ 
+    width: 100%;
+    margin-left: 0px;
+    font-size: .4em;
+}
+    section.timeline table{
+    margin-left: 0px;
+    font-size: .2em;
+    }
+    
+    section.main .advert {
+    width: 50%;
+    margin-left:0px;
+    padding: 0;
+  
+}
+    section.lastimage {
+    width:25%;
+    padding-left:0px;
+}
+
+
     
     }
 
