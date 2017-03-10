@@ -329,7 +329,7 @@ section.mainNews1 {
 section.mainNews1 aside {
     width: 45%;
     float: left;
-    text-align: left;
+    text-align:left;
     line-height: 1.5;
     margin-right: 50px;
     background: no-repeat center top;
@@ -341,15 +341,15 @@ section.mainNews1 aside {
 }
 
 section.mainNews1 aside img{
-    margin-left: 60px;
-    
+   width:60%;
 }
-section.mainNews1 h2{
+
+section.mainNews1 aside h2{
     font-size: 2em;
 }
-section.mainNews1 p{
-    
+section.mainNews1 aside p{ 
     font-size: 1em;
+ 
     
 }
 
@@ -1226,13 +1226,13 @@ section.lastimage {
  
     width: 100%;
     margin-left: 0px;
-    font-size: .4em;
+    font-size: .8em;
 }
     section.timeline table{
     margin-left: 0px;
-    font-size: .2em;
+    font-size: .8em;
     }
-    
+ 
    
     section.main .advert img{
     width: 300px;
@@ -1245,7 +1245,9 @@ section.lastimage {
     height: 100px;   
     margin-left: 50px;
 }
-
+    section.futureDates{
+        margin-left: 0px;
+    }
 
     
     }
