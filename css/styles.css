@@ -228,10 +228,10 @@ section.mainTwo {
 }
 
 section.mainTwo aside {
-    width: 45%;
+    width: 46%;
     float: left;
     text-align: left;
-    margin: 15px;
+    margin: 10px;
     line-height: 1.5;
     padding-top: 5px;
     box-sizing:border-box;
@@ -258,7 +258,7 @@ section.mainThree {
 }
 
 section.mainThree aside {
-    width: 30%;
+    width: 29.5%;
     float: left;
     text-align:left;
     margin: 15px;
@@ -279,19 +279,18 @@ section.mainThree aside img {
 
 section.timeline {
     
-    width: 90%;
-    margin-left: 40px;
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 30px;    
     background-color: #92b0c7;
-    margin-top: 20px;
-    margin-bottom: 20px;
     color: #fff;
     box-sizing:border-box;
     border: 10px solid #ccc;
 }
 table {
-  
+    width: 100%;
     margin: 15px;
-    margin-left:20px; 
+    font-size: 1.25em;
 }
 
 
@@ -351,13 +350,18 @@ section.mainNews1 p{
 
 section.main aside iframe{
     width:100%;
-    margin-left:0px;
+    margin-left:10px;
 }
 
 section.mainNews1::after {
     display:inline;
     clear: both;
 }
+section.mainNews1 aside iframe{
+    width:100%;
+    margin-left:0px;
+}
+
 
 section.mainTwo1 {
     margin-top: 30px;
@@ -382,39 +386,56 @@ section.mainTwo1 aside img {
     padding-right: 10px;
 }
 
-/* Calendar */
-
-
-section.futureDates {
-    margin-top: 20px;
-    padding-top:50px;
-    margin-bottom: 30px;
-}
-
-section.futureDates aside .whatson{
-    width: 40%;
-    float:left;
-    text-align:left;
-    line-height:1.5;
-    margin-top:15px;
-    margin-right:20px;
-    padding:0px;
-    display: block;
-}
-
-
 section.mainTwo1 .advert img{
     width:100%;
     
 }
+
+/* Calendar */
+
+
+section.futureDates {
+   
+    margin-top: 20px;
+    padding-top:50px;
+    margin-bottom: 30px;
+    width: 100%;
+    float:left;
+    text-align:left;
+    line-height:1.5;
+    position:relative;
+    padding:0px;
+   
+}
+
+section.futureDates{
+    clear:both;
+}
+
+
+.whatson  {
+    width: 45%;
+    margin-left: 120px;
+    float:left;
+    display: inline;
+    box-sizing:border-box;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+
 #calendar {
-    width:33%;
+    float:left;
+    width:45%;
     margin-bottom: 10px;
     box-sizing:border-box;
     border: 1px solid #ccc;
+    display: block;
+    margin-left:0px;
 }
 #calendar header{
-        background-color: #92b0c7;
+    width:100%;
+    background-color: #92b0c7;
     height: 30px;
     text-align: center;
     font-size: .5em;
@@ -486,25 +507,20 @@ section.mainTwo1 .advert img{
 }
 
 #calendar .event {
-    clear: both;
-    display: block;
-    border-radius: 4px;
+
+    display:block;
     padding: 5px;
-    margin-top: 5px;
-    margin-bottom: 0;
-    background:  #92b0c7;
-    border: 1px solid #b5dbdc;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:  #92b0c7;
+    border: 10px solid #92b0c7;
     text-decoration: none;
 }
-
 
 #calendar .other-month {
     background: #f5f5f5;
     color: #666;
 }
-
-/*First News Page */
-
 
 
 form {
@@ -527,11 +543,9 @@ input:focus{
     border: 4px solid #92b0c7;
 }
 section.lastimage {
-    width:100%;
-    padding-left: 150px;
+    width:50%;
+    padding-left: 400px;
 }
-
-
 
 
 
