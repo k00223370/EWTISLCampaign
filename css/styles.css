@@ -410,7 +410,8 @@ section.futureDates {
    
 }
 
-section.futureDates{
+section.futureDates::after{
+    display:block;
     clear:both;
 }
 
@@ -552,6 +553,7 @@ input {
 input:focus{
     border: 4px solid #92b0c7;
 }
+
 section.lastimage {
     width:50%;
     margin-left: 100px;
@@ -602,8 +604,8 @@ section.lastimage {
     }
     .whatson  {
     
-    margin-left: 40px;
-}
+        margin-left: 40px;
+    }
     section.mainNews1 aside h2{ 
         
         font-size: 2em;
@@ -616,11 +618,11 @@ section.lastimage {
         margin-bottom: 20px;
     }
     section.mainNews1 h2{
-    font-size: 1.5em;
+        font-size: 1.5em;
     }
     section.mainNews1 p{
     
-    font-size: 1em; 
+        font-size: 1em; 
 }
     section.main #theisland{
         width:100%;
@@ -633,8 +635,8 @@ section.lastimage {
     }
 }
     table tr{
-    font-size: .5em;
-    text-decoration: none;
+        font-size: .5em;
+        text-decoration: none;
 }
     section.main aside iframe {
         width:100%;
@@ -646,10 +648,10 @@ section.lastimage {
     }
     
     nav > ul > li > input{
-    width:  100px;
-    height: 5px;
-    float:left;
-    padding-left: 0px;
+        width:  100px;
+        height: 5px;
+        float:left;
+        padding-left: 0px;
 }
 
 
@@ -659,8 +661,8 @@ section.lastimage {
 @media screen and (max-width: 1030px){
    
     header p{
-    padding-left: 90%;
-    color: white;
+        padding-left: 90%;
+        color: white;
 }
       nav >ul {
         
@@ -670,14 +672,14 @@ section.lastimage {
     section.mainNews1 aside img{
         margin-left: 250px;
     }
-}
-section.timeline {
+    
+    section.timeline {
     width:90%;
-}
-section.lastimage {
+    }
+    section.lastimage {
     width:100%;
     padding-left: 70px;
-}
+    }
 @media screen and (max-width: 980px) {
      
     header p{
@@ -1218,12 +1220,17 @@ section.lastimage {
     section.lastimage img{
         width:200px;
         height: 100px;   
-        margin-left: 50px;
+        margin-left:0px;
 }
     section.futureDates{
         margin-left: 0px;
     }
-    
+    section.futureDates .whatson{
+        margin-left:50px;
+    }
+    section.futureDates .whatson img {
+        width:50%;
+    }
      section.futureDates .whatson h4{
         
         font-size: .8em;
