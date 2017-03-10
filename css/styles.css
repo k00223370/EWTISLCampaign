@@ -1149,8 +1149,10 @@ section.lastimage {
     margin-left: 0px;
     }
     
-    section.main .advert img{
-   width: 100%
+   section.main .advert img{
+   width: 100%;
+    margin-left: 0px;
+       
   
 }
     section.lastimage img{
@@ -1242,7 +1244,7 @@ section.lastimage {
     margin-left: 50px;
 }
     section.futureDates{
-        margin-left: 0px;
+    margin-left: 0px;
     }
 
     
