@@ -1160,7 +1160,8 @@ section.lastimage {
    
     header {
         height: 150px;
-        width: 380px;
+        width: 360px;
+        margin-left: 3px;
         background: #92b0c7;
         position:relative;
     }
