@@ -1161,7 +1161,8 @@ section.lastimage {
     header {
         height: 150px;
         width: 80%;
-        margin-right: 10px;
+        margin-left: 0px;
+        margin-right:0px;
         background: #92b0c7;
         position:relative;
     }
