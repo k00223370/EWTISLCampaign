@@ -833,11 +833,7 @@ section.lastimage {
     p{
         .8em;
     }
-  section.main .advert {
-        width: 100%;
-        padding-left: 110px;
-    }
-   
+ 
     
   header {
         height: 200px;
@@ -1070,11 +1066,6 @@ section.lastimage {
      nav ul ul ul li a {
       margin-left: 60px;  
     }
-   
-    
-    
- 
-    /* Section Main*/
     
  
  section.main aside {
@@ -1083,9 +1074,7 @@ section.lastimage {
 
 
     }
-
-    
-      
+  
   section.mainTwo aside{
         width: 90%;
         float: left;
@@ -1104,6 +1093,9 @@ section.lastimage {
     section.main aside iframe {
         width:350px;
         margin-left: 10px;
+    }
+    section.futureDates .whatson p{
+        font-size:.8em;
     }
     
 
@@ -1228,6 +1220,10 @@ section.lastimage {
 }
     section.futureDates{
         margin-left: 0px;
+    }
+    section.futureDates .whatson p{
+        
+        font-size: .6em;
     }
 
     
