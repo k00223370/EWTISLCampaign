@@ -188,28 +188,32 @@ section.main {
 section.main aside {
     width: 45%;
     float: left;
-    text-align: left;
+    text-align:left;
     line-height: 1.25;
     margin-right: 50px;
     background: no-repeat center top;
     padding: 10px;
     box-sizing:border-box;
     border: 1px solid #ccc;
+  
 
 }
-section.main aside img{  
+section.main iframe{
     float:left;
-    padding-right: 10px;
-}
-section.main .advert img{
-    border:none;
-    width: 100%;
+    width:100%;
+    margin-left:0px;
+    
 }
 
 
 section.main aside .news.top p{
     font-size: 1.15em;
 }
+section.main aside #theisland{
+    width: 100%;
+    padding-top: 20px;
+}
+
 
 
 
@@ -349,10 +353,6 @@ section.mainNews1 aside p{
     
 }
 
-section.main aside iframe{
-    width:100%;
-    margin-left:10px;
-}
 
 section.mainNews1::after {
     display:inline;
@@ -620,27 +620,24 @@ section.lastimage {
     }
     section.mainNews1 p{
     
-    font-size: 1em;
-    
+    font-size: 1em; 
 }
-    section.main .advert{
-    margin-left: 0px;
-    margin-bottom: 60px;
+    section.main #theisland{
+        width:100%;
+        float:left;
+        margin-top: 30px;
+        margin-left:0px;
+        margin-bottom:10px;
+        box-sizing:border-box;
+        border: 1px solid #ccc;
     }
-    
-    section.main .advert img{
-    width: 600px;
-    height:250px;
-    margin-left:0px;
-    margin-bottom:30px;
-  
 }
     table tr{
     font-size: .5em;
     text-decoration: none;
 }
     section.main aside iframe {
-        width:500px;
+        width:100%;
         margin-left: 180px;
     }
      section.mainNews1 aside iframe {
@@ -743,18 +740,12 @@ section.lastimage {
     width:90%;
     padding-left: 30px;
 }
-    section.main .advert{
-    margin-left: 0px;
-    margin-bottom: 0px;
+    section.main #theisland{
+        width:100%;
+        margin-left:0px;
+        margin-bottom:10px;
     }
-    
-    section.main .advert img{
-    width: 600px;
-    height:250px;
-    margin-left:0px;
-    margin-bottom:30px;
-  
-}
+
 
     }
     
@@ -785,7 +776,11 @@ section.lastimage {
         width:500px;
         margin-left: 150px;
     }
-    
+        section.main #theisland{
+        width:100%;
+        margin-left:0px;
+        margin-bottom:10px;
+    }
     }
     
 @media screen and (max-width: 830px) {
@@ -802,9 +797,10 @@ section.lastimage {
         width:500px;
         margin-left: 150px;
     }
-     section.main .advert {
-        width: 100%;
-        padding-left: 150px;
+       section.main #theisland{
+        width:100%;
+        margin-left:0px;
+        margin-bottom:10px;
     }
         section.mainNews1 aside iframe {
         width:400px;
@@ -922,17 +918,11 @@ section.lastimage {
     margin-left: 20px;
     font-size: 1.25em;
 }
-   section.main .advert{
-    margin-left: 0px;
-    margin-bottom: 30px;
+    section.main #theisland{
+        width:100%;
+        margin-left:0px;
+        margin-bottom:10px;
     }
-    
-    section.main .advert img{
-    width: 450px;
-    height:225px;
-    margin-left:0px;
-  
-}
     section.lastimage img{
     width:500px;
     height:250px;   
@@ -979,13 +969,11 @@ section.lastimage {
     margin-left: 40px;
     font-size: 1em;
 }
-  
-    section.main .advert img{
-    width: 450px;
-    height:225px;
-    margin-left:0px;
-  
-}
+      section.main #theisland{
+        width:100%;
+        margin-left:0px;
+        margin-bottom:10px;
+    }
     section.lastimage img{
     width:500px;
     height:250px;   
@@ -1145,20 +1133,19 @@ section.lastimage {
         width:100px;
         height:100px;
 }
-       section.main .advert{
-    margin-left: 0px;
+    section.main .advert{
+        margin-left: 0px;
     }
     
-   section.main .advert img{
-   width: 100%;
-    margin-left: 0px;
-       
-  
-}
+    section.main #theisland{
+        width:100%;
+        margin-left:0px;
+        margin-bottom:10px;
+    }
     section.lastimage img{
-    width:400px;
-    height: 200px;   
-    margin-left: 30px;
+        width:400px;
+        height: 200px;   
+        margin-left: 30px;
 }
 
 
@@ -1170,8 +1157,8 @@ section.lastimage {
     
     
     header p{
-    padding-left: 70%;
-    color: white;
+        padding-left: 70%;
+        color: white;
 }
     
     
@@ -1220,31 +1207,27 @@ section.lastimage {
     }
     section.timeline {
  
-    width: 100%;
-    margin-left: 0px;
-    font-size: .4em;
+        width: 100%;
+        margin-left: 0px;
+        font-size: .4em;
 }
     section.timeline table{
-    margin-left: 0px;
-    font-size: .2em;
-    }
-    section.timeline table{
-    margin-left: 0px;
-    font-size: .2em;
+        margin-left: 0px;
+        font-size: .2em;
     }
    
-    section.main .advert img{
-    width: 100%;
-    margin-left:0px;
-  
-}
+      section.main #theisland{
+        width:100%;
+        margin-left:0px;
+        margin-bottom:10px;
+    }
     section.lastimage img{
-    width:200px;
-    height: 100px;   
-    margin-left: 50px;
+        width:200px;
+        height: 100px;   
+        margin-left: 50px;
 }
     section.futureDates{
-    margin-left: 0px;
+        margin-left: 0px;
     }
 
     
