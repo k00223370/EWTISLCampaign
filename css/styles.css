@@ -996,6 +996,7 @@ section.lastimage {
         font-size: .9em;
     }
     header {
+        width:100%;
         height: 200px;
     }
     .whatson p{
@@ -1013,14 +1014,14 @@ section.lastimage {
     
    header div.ISLRec {
     
-    top: 80px;
+        top: 80px;
 
 }
-       section.timeline table{
+    section.timeline table{
  
-    width: 90%;
-    margin-left: 10px;
-    font-size: 1.25em;
+        width: 90%;
+        margin-left: 10px;
+        font-size: 1.25em;
 }
 
    
@@ -1070,15 +1071,15 @@ section.lastimage {
     }
     
  
- section.main aside {
-    width: 100%;
-    padding:20px;
+    section.main aside {
+        width: 100%;
+        padding:20px;
 
 
     }
   
   section.mainTwo aside{
-        width: 90%;
+        width: 100%;
         float: left;
         text-align: center;
         margin: 15px;
