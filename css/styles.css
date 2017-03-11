@@ -317,7 +317,7 @@ table tr{
     text-decoration: none;
 }
 
-/* News Pages */
+
 
 section.mainNews1 {
     margin-top: 20px;
@@ -340,17 +340,15 @@ section.mainNews1 aside {
 
 }
 
-section.mainNews1 aside img{
-   width:60%;
+section.mainNews1 aside .news1 img{
+    float:none; 
 }
 
 section.mainNews1 aside h2{
     font-size: 2em;
 }
 section.mainNews1 aside p{ 
-    font-size: 1em;
- 
-    
+    font-size: 1em;   
 }
 
 
@@ -358,6 +356,7 @@ section.mainNews1::after {
     display:inline;
     clear: both;
 }
+
 section.mainNews1 aside iframe{
     width:100%;
     margin-left:0px;
@@ -383,20 +382,14 @@ section.mainTwo1 aside {
 }
 
 section.mainTwo1 aside img {
-    float:left;
     padding-right: 10px;
 }
 
 section.mainTwo1 .advert img{
-    width:100%;
-    
+    width:100%;  
 }
 
-/* Calendar */
-
-
-section.futureDates {
-   
+section.futureDates { 
     margin-top: 20px;
     padding-top:50px;
     margin-bottom: 30px;
@@ -407,7 +400,6 @@ section.futureDates {
     line-height:1.5;
     position:relative;
     padding:0px;
-   
 }
 
 section.futureDates::after{
@@ -493,13 +485,11 @@ section.futureDates::after{
     padding: 10px 6px;
     color: #fff;
     font-size: 9.5px;
-    margin: 0;
-    
+    margin: 0;   
 }
 
 #calendar .days li {
-    height: 40px;
-    
+    height: 40px;   
 }
 
 #calendar .days li:hover {
@@ -518,7 +508,6 @@ section.futureDates::after{
 }
 
 #calendar .event {
-
     display:block;
     padding: 5px;
     margin-top: 0px;
@@ -567,12 +556,10 @@ section.lastimage {
         font-size: 2.4em;
     }
     
-    /* header */
-    
    header p{
-    padding-left: 90%;
-    color: white;
-}
+        padding-left: 90%;
+        color: white;
+    }
     header div.islRec {
         left: 56%;
         color: black;
@@ -584,7 +571,7 @@ section.lastimage {
     section.main aside {
         width: 100%;
         margin-bottom: 20px;
-        margin-right:20px;
+        margin-right:0px;
     
     }
     section.main .advert {
@@ -593,7 +580,6 @@ section.lastimage {
     }
    
     nav >ul {
-        
         padding-left: 650px;
         font-size: 15px;
     }
@@ -603,11 +589,9 @@ section.lastimage {
             margin-left: 100px;
     }
     .whatson  {
-    
         margin-left: 40px;
     }
     section.mainNews1 aside h2{ 
-        
         font-size: 2em;
     }
     section.mainNews1 aside img{
@@ -621,9 +605,8 @@ section.lastimage {
         font-size: 1.5em;
     }
     section.mainNews1 p{
-    
         font-size: 1em; 
-}
+    }
     section.main #theisland{
         width:100%;
         float:left;
@@ -633,11 +616,10 @@ section.lastimage {
         box-sizing:border-box;
         border: 1px solid #ccc;
     }
-}
     table tr{
         font-size: .5em;
         text-decoration: none;
-}
+    }   
     section.main aside iframe {
         width:100%;
         margin-left: 180px;
@@ -652,7 +634,7 @@ section.lastimage {
         height: 5px;
         float:left;
         padding-left: 0px;
-}
+    }
 
 
     
@@ -940,23 +922,23 @@ section.lastimage {
         padding-left: 150px;
         font-size: 15px;
     }
-        header a.logo {
-            width: 30%;
-            top: 80px;
-            left: 50px;
-        }
-        section.mainNews1 aside img{
+    header a.logo {
+         width: 30%;
+        top: 80px;
+        left: 50px;
+    }
+    section.mainNews1 aside img{
         margin-left: 90px;
     }
-        section.main aside iframe {
+    section.main aside iframe {
         width:400px;
         margin-left: 40px;
     }
-      section.mainNews1 aside iframe {
+    section.mainNews1 aside iframe {
         width:400px;
         margin-left: 40px;
     }
-     #calendar {
+    #calendar {
         width:80%;
         margin-left:40px;
       
@@ -983,9 +965,9 @@ section.lastimage {
 
 @media screen and (max-width: 540px) {
     header p{
-    padding-left: 75%;
-    color: white;
-}
+        padding-left: 75%;
+        color: white;
+    }   
     h1 {
         font-size: 1.8em;
     }
@@ -1000,31 +982,25 @@ section.lastimage {
         height: 200px;
     }
     .whatson p{
-    line-height: 1px;
-    font-size: 1.1em;
-}
+        line-height: 1px;
+        font-size: 1.1em;
+    }
 
     header a.logo {
         width: 30%;
         height: 150px;
         left: 20px;
         top: 70px;
-     
     }
     
    header div.ISLRec {
-    
         top: 80px;
-
-}
+    }
     section.timeline table{
- 
         width: 90%;
         margin-left: 10px;
         font-size: 1.25em;
-}
-
-   
+    } 
     nav {
         position: static;
         width: auto;
@@ -1070,19 +1046,14 @@ section.lastimage {
       margin-left: 60px;  
     }
     
- 
     section.main aside {
         width: 100%;
         padding:20px;
-
-
     }
-  
-  section.mainTwo aside{
+    section.mainTwo aside{
         width: 100%;
         float: left;
         text-align: center;
-        margin: 15px;
         padding: 20px;    
         box-sizing:border-box;
         border: 1px solid #ccc;
