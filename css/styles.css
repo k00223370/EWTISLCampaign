@@ -963,20 +963,20 @@ section.lastimage {
     }
     section.timeline {
     
-    width: 80%;
-    margin-left: 40px;
-    font-size: 1em;
-}
-      section.main #theisland{
+        width: 80%;
+        margin-left: 40px;
+        font-size: 1em;
+    }
+    section.main #theisland{
         width:100%;
         margin-left:0px;
         margin-bottom:10px;
     }
     section.lastimage img{
-    width:500px;
-    height:250px;   
-    margin-left: 30px;
-}
+        width:500px;
+        height:250px;   
+        margin-left: 30px;
+    }
 
     }
 
@@ -1123,15 +1123,7 @@ section.lastimage {
     section.futureDates header{
        width:100%;   
    
-}
-    section.mainNews1 aside.video {
-        width:100px;
-        height:100px;
-}
-    section.main .advert{
-        margin-left: 0px;
-    }
-    
+}   
     section.main #theisland{
         width:100%;
         margin-left:0px;
@@ -1181,8 +1173,6 @@ section.lastimage {
         width: 100%;
         margin-left: 0px;
         margin-right:0px;
-        background: #92b0c7;
-        position:relative;
     }
     
     
@@ -1202,7 +1192,9 @@ section.lastimage {
     nav > ul {
         padding-left: 0px;
     }
-    
+    section.main{
+        width: 100%;
+    }
 
       section.mainNews1 aside img{
         display:none;
@@ -1210,7 +1202,7 @@ section.lastimage {
       section.main aside iframe {
         width:250px;
         height:250px;
-        margin-left: 10px;
+        margin-left:10px;
     }
        section.mainNews1 aside iframe {
         width:250px;
@@ -1218,7 +1210,6 @@ section.lastimage {
         margin-left:10px;
     }
     section.timeline {
- 
         width: 100%;
         margin-left: 0px;
         font-size: .4em;
