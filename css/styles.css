@@ -863,15 +863,15 @@ section.lastimage {
         width: 90%;
         padding:5px;
     
-}
+    }
     #calendar {
         width:80%;
         margin-left:40px;        
     }
  
     .whatson  {
-     width:80%;
-     margin-left: 40px;
+         width:80%;
+         margin-left: 40px;
     }
      section.mainTwo1 aside{
         width: 90%;
@@ -879,23 +879,23 @@ section.lastimage {
         padding: 20px;    
 
     }
-      section.mainNews1 aside img{
+    section.mainNews1 aside img{
         margin-left: 120px;
     }
-        section.main aside iframe {
+    section.main aside iframe {
         width:500px;
         margin-left: 80px;
     }
  
-       section.mainNews1 aside iframe {
+    section.mainNews1 aside iframe {
         width:500px;
         margin-left: 40px;
     }
     section.timeline {
     
-    width: 90%;
-    margin-left: 20px;
-    font-size: 1.25em;
+        width: 90%;
+        margin-left: 20px;
+        font-size: 1.25em;
 }
     section.main #theisland{
         width:100%;
@@ -1126,7 +1126,7 @@ section.lastimage {
     header p{
         padding-left: 70%;
         color: white;
-}
+    }
     
     
       h1 {
@@ -1152,7 +1152,12 @@ section.lastimage {
         width: 200px;
         margin:20px;
     }
-
+    section.mainTwo aside{
+        width: 100%;
+        margin:0px;
+        margin-bottom: 30px;
+        margin-right: 20px;
+    }
    
     nav > ul {
         padding-left: 0px;
@@ -1161,15 +1166,15 @@ section.lastimage {
         width: 100%;
     }
 
-      section.mainNews1 aside img{
+    section.mainNews1 aside img{
         display:none;
     }
-      section.main aside iframe {
+    section.main aside iframe {
         width:250px;
         height:250px;
         margin-left:10px;
     }
-       section.mainNews1 aside iframe {
+    section.mainNews1 aside iframe {
         width:250px;
         height:250px;
         margin-left:10px;
@@ -1178,13 +1183,13 @@ section.lastimage {
         width: 100%;
         margin-left: 0px;
         font-size: .4em;
-}
+    }
     section.timeline table{
         margin-left: 0px;
         font-size: .2em;
     }
    
-      section.main #theisland{
+    section.main #theisland{
         width:100%;
         margin-left:0px;
         margin-bottom:10px;
@@ -1193,9 +1198,12 @@ section.lastimage {
         width:200px;
         height: 100px;   
         margin-left:40px;
-}
+    }
     section.futureDates{
         margin-left: 0px;
+    }
+    #calendar {
+        margin-left: 50px;
     }
 
     
