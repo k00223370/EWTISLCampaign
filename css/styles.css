@@ -540,7 +540,15 @@ section.lastimage {
     margin-left: 150px;
 }
 
-
+.allstories{
+    width: 90%;
+    float: left;
+    text-align:center;
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin-top: 15px;
+    
+}
 
 @media screen and (max-width: 1060px){
     
@@ -707,14 +715,13 @@ section.lastimage {
      margin-left: 50px;
     }
     section.timeline {
-    
-    width: 90%;
-    margin-left: 40px;
-    font-size: 2em;
+        width: 90%;
+        margin-left: 40px;
+        font-size: 2em;
 }
     section.lastimage {
-    width:90%;
-    padding-left: 30px;
+        width:90%;
+        padding-left: 30px;
 }
     section.main #theisland{
         width:100%;
@@ -748,11 +755,11 @@ section.lastimage {
         width:80%;
         margin-left:80px;
     }
-       section.mainNews1 aside iframe {
+    section.mainNews1 aside iframe {
         width:500px;
         margin-left: 150px;
     }
-        section.main #theisland{
+    section.main #theisland{
         width:100%;
         margin-left:0px;
         margin-bottom:10px;
@@ -783,8 +790,8 @@ section.lastimage {
         margin-left: 130px;
     }
     section.lastimage {
-    width:300px;
-    padding-left: 20px;
+        width:250px;
+        margin-left: 0px;
 }
  
     
@@ -896,9 +903,9 @@ section.lastimage {
         margin-bottom:10px;
     }
     section.lastimage img{
-    width:500px;
-    height:250px;   
-    margin-left: 30px;
+        width:500px;
+        height:250px;   
+        margin-left:80px;
 }
 
 
@@ -1064,11 +1071,6 @@ section.lastimage {
         font-size:.8em;
     }
     
-
-  
-    
-    /* Footer*/
-    
     footer div.content {
         display: block;
         margin-top: 15px;
@@ -1093,8 +1095,8 @@ section.lastimage {
         margin-bottom:10px;
     }
     section.lastimage img{
-       width:100%;   
-        margin-left: 0px;
+        width:400px;   
+        margin-left: 30px;
 }
     section.futureDates .whatson{
         width:100%;
@@ -1190,7 +1192,7 @@ section.lastimage {
     section.lastimage img{
         width:200px;
         height: 100px;   
-        margin-left:0px;
+        margin-left:40px;
 }
     section.futureDates{
         margin-left: 0px;
