@@ -194,6 +194,10 @@ section.main aside {
     box-sizing:border-box;
     border: 1px solid #ccc;  
 }
+section.main aside img {
+    float:left;
+    padding-left:10px;
+}
 
 section.main aside iframe {
     float:left;
@@ -207,8 +211,8 @@ section.main aside .news.top p{
 }
 
 section.main aside #theisland{
-    width: 100%;
-    padding-top: 20px;
+    width: 90%;
+    margin-left: 15px;
 }
 
 
@@ -270,12 +274,9 @@ section.mainThree aside img {
 
 
 
-
-/* timeline */
-
 section.timeline {
     
-    width: 100%;
+    width: 95%;
     margin-left: 20px;
     margin-bottom: 30px;    
     background-color: #92b0c7;
@@ -384,7 +385,7 @@ section.futureDates {
     margin-top: 20px;
     padding-top:50px;
     margin-bottom: 30px;
-    margin-left: 80px;
+    margin-left: 120px;
     width: 80%;
     float:left;
     text-align:left;
@@ -536,7 +537,7 @@ input:focus{
 
 section.lastimage {
     width:50%;
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 
